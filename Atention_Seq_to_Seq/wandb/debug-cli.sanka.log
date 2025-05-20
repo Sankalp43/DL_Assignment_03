@@ -16,3 +16,4 @@
 	teacher_forcing: 0.5
 2025-05-21 00:13:35 INFO About to run command: python train_model.py --attention=True --batch_size=64 --cell_type=gru --data_path=c:\Users\sanka\Desktop\DL_Assignment_3\data --dec_layers=2 --dropout=0 --embed_dim=128 --enc_layers=1 --epochs=10 --hidden_size=256 --lang_code=hi --learning_rate=0.001 --teacher_forcing=0.5
 2025-05-21 00:13:40 INFO Running runs: ['vy9xqssa']
+2025-05-21 00:35:21 INFO Closing mailbox, abandoning 0 handles.
