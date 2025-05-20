@@ -1,0 +1,51 @@
+{
+    "os": "Windows-10-10.0.26100-SP0",
+    "python": "CPython 3.10.9",
+    "heartbeatAt": "2025-05-20T18:13:37.279821",
+    "startedAt": "2025-05-20T18:13:36.326377",
+    "docker": null,
+    "args": [
+        "service",
+        "--debug",
+        "--port-filename",
+        "C:\\Users\\sanka\\AppData\\Local\\Temp\\tmpm4rj0751\\port-8064.txt",
+        "--pid",
+        "8064"
+    ],
+    "state": "running",
+    "program": "C:\\Users\\sanka\\Desktop\\DL_Assignment_3\\Vanilla_Seq_to_Seq\\train_model.py",
+    "codePathLocal": "train_model.py",
+    "codePath": "Vanilla_Seq_to_Seq\\train_model.py",
+    "git": {
+        "remote": "https://github.com/Sankalp43/DL_Assignment_03.git",
+        "commit": "471012f7c302a612293d30f99ff2317a98c77912"
+    },
+    "email": "sankalpshrivastava2017@gmail.com",
+    "root": "C:/Users/sanka/Desktop/DL_Assignment_3",
+    "host": "DESKTOP-746QPVK",
+    "username": null,
+    "executable": "C:\\Users\\sanka\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+    "cpu_count": 2,
+    "cpu_count_logical": 4,
+    "cpu_freq": {
+        "current": 1690.0,
+        "min": 0.0,
+        "max": 1690.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1690.0,
+            "min": 0.0,
+            "max": 1690.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 510549553152,
+            "used": 333712441344
+        }
+    },
+    "memory": {
+        "total": 8212041728
+    }
+}

@@ -1,0 +1,31 @@
+program: train_model.py
+method: bayes
+metric:
+  name: val_loss
+  goal: minimize
+parameters:
+  embed_dim:
+    values: [64, 128, 256]
+  hidden_size:
+    values: [128, 256, 512]
+  enc_layers:
+    values: [1, 2]
+  dec_layers:
+    values: [1, 2]
+  cell_type:
+    values: ['lstm', 'gru', 'rnn']
+  dropout:
+    values: [0.0, 0.2, 0.3]
+  learning_rate:
+    values: [0.001, 0.0005]
+  teacher_forcing:
+    values: [0.5, 0.7]
+  epochs:
+    value: 10
+  batch_size:
+    value: 64
+  lang_code:
+    value: hi
+  data_path:
+    value: c:\Users\sanka\Desktop\DL_Assignment_3\data
+
