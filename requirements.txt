@@ -1,0 +1,26 @@
+# Core packages
+torch>=1.10
+torchtext>=0.11.0
+numpy
+pandas
+scikit-learn
+
+# Plotting and visualization
+matplotlib
+seaborn
+
+# Configuration
+pyyaml
+
+# Progress bars
+tqdm
+
+# Logging and hyperparameter tuning
+wandb
+
+# Jupyter (optional, for development notebooks)
+jupyter
+notebook
+
+# For working with TSV and Unicode
+unidecode
