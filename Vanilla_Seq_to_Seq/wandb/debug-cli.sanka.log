@@ -58,3 +58,20 @@
 2025-05-20 23:42:36 INFO Cleaning up finished run: 4fa3mpf5
 2025-05-20 23:42:36 INFO Closing mailbox, abandoning 0 handles.
 2025-05-20 23:43:01 INFO Closing mailbox, abandoning 0 handles.
+2025-05-20 23:43:28 INFO Running runs: []
+2025-05-20 23:43:28 INFO Agent received command: run
+2025-05-20 23:43:28 INFO Agent starting run with config:
+	batch_size: 64
+	cell_type: gru
+	data_path: c:\Users\sanka\Desktop\DL_Assignment_3\data
+	dec_layers: 1
+	dropout: 0
+	embed_dim: 64
+	enc_layers: 2
+	epochs: 10
+	hidden_size: 128
+	lang_code: hi
+	learning_rate: 0.001
+	teacher_forcing: 0.7
+2025-05-20 23:43:28 INFO About to run command: python train_model.py --batch_size=64 --cell_type=gru --data_path=c:\Users\sanka\Desktop\DL_Assignment_3\data --dec_layers=1 --dropout=0 --embed_dim=64 --enc_layers=2 --epochs=10 --hidden_size=128 --lang_code=hi --learning_rate=0.001 --teacher_forcing=0.7
+2025-05-20 23:43:33 INFO Running runs: ['iwuhwyys']

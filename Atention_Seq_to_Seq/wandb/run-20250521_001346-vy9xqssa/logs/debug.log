@@ -1,0 +1,23 @@
+2025-05-21 00:13:46,674 INFO    MainThread:1388 [wandb_setup.py:_flush():67] Current SDK version is 0.19.8
+2025-05-21 00:13:46,674 INFO    MainThread:1388 [wandb_setup.py:_flush():67] Configure stats pid to 1388
+2025-05-21 00:13:46,674 INFO    MainThread:1388 [wandb_setup.py:_flush():67] Loading settings from C:\Users\sanka\.config\wandb\settings
+2025-05-21 00:13:46,674 INFO    MainThread:1388 [wandb_setup.py:_flush():67] Loading settings from C:\Users\sanka\Desktop\DL_Assignment_3\Atention_Seq_to_Seq\wandb\settings
+2025-05-21 00:13:46,674 INFO    MainThread:1388 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-05-21 00:13:46,674 INFO    MainThread:1388 [wandb_init.py:setup_run_log_directory():647] Logging user logs to C:\Users\sanka\Desktop\DL_Assignment_3\Atention_Seq_to_Seq\wandb\run-20250521_001346-vy9xqssa\logs\debug.log
+2025-05-21 00:13:46,674 INFO    MainThread:1388 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to C:\Users\sanka\Desktop\DL_Assignment_3\Atention_Seq_to_Seq\wandb\run-20250521_001346-vy9xqssa\logs\debug-internal.log
+2025-05-21 00:13:46,674 INFO    MainThread:1388 [wandb_init.py:init():761] calling init triggers
+2025-05-21 00:13:46,674 INFO    MainThread:1388 [wandb_init.py:init():766] wandb.init called with sweep_config: {'attention': True, 'batch_size': 64, 'cell_type': 'gru', 'data_path': 'c:\\Users\\sanka\\Desktop\\DL_Assignment_3\\data', 'dec_layers': 2, 'dropout': 0, 'embed_dim': 128, 'enc_layers': 1, 'epochs': 10, 'hidden_size': 256, 'lang_code': 'hi', 'learning_rate': 0.001, 'teacher_forcing': 0.5}
+config: {'embed_dim': 128, 'hidden_size': 256, 'enc_layers': 1, 'dec_layers': 2, 'cell_type': 'gru', 'dropout': 0.0, 'learning_rate': 0.001, 'teacher_forcing': 0.5, 'epochs': 10, 'batch_size': 64, 'attention': True, 'wandb_project': 'DA6401_assignment3', 'wandb_entity': None, 'lang_code': 'hi', 'data_path': 'c:\\Users\\sanka\\Desktop\\DL_Assignment_3\\data', '_wandb': {}}
+2025-05-21 00:13:46,674 INFO    MainThread:1388 [wandb_init.py:init():784] starting backend
+2025-05-21 00:13:46,674 INFO    MainThread:1388 [wandb_init.py:init():788] sending inform_init request
+2025-05-21 00:13:46,709 INFO    MainThread:1388 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn, using: spawn
+2025-05-21 00:13:46,709 INFO    MainThread:1388 [wandb_init.py:init():798] backend started and connected
+2025-05-21 00:13:46,709 INFO    MainThread:1388 [wandb_run.py:_config_callback():1261] config_cb None None {'attention': True, 'batch_size': 64, 'cell_type': 'gru', 'data_path': 'c:\\Users\\sanka\\Desktop\\DL_Assignment_3\\data', 'dec_layers': 2, 'dropout': 0, 'embed_dim': 128, 'enc_layers': 1, 'epochs': 10, 'hidden_size': 256, 'lang_code': 'hi', 'learning_rate': 0.001, 'teacher_forcing': 0.5}
+2025-05-21 00:13:46,709 INFO    MainThread:1388 [wandb_init.py:init():891] updated telemetry
+2025-05-21 00:13:46,777 INFO    MainThread:1388 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-05-21 00:13:47,364 INFO    MainThread:1388 [wandb_init.py:init():990] starting run threads in backend
+2025-05-21 00:13:48,100 INFO    MainThread:1388 [wandb_run.py:_console_start():2375] atexit reg
+2025-05-21 00:13:48,100 INFO    MainThread:1388 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-05-21 00:13:48,100 INFO    MainThread:1388 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-05-21 00:13:48,106 INFO    MainThread:1388 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-05-21 00:13:48,110 INFO    MainThread:1388 [wandb_init.py:init():1032] run started, returning control to user process

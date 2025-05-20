@@ -1,0 +1,82 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    python_version: 3.10.9
+    cli_version: 0.19.8
+    framework: huggingface
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1747766626
+    t:
+      1:
+      - 1
+      - 5
+      - 53
+      - 55
+      - 105
+      2:
+      - 1
+      - 5
+      - 11
+      - 49
+      - 53
+      - 55
+      - 105
+      3:
+      - 14
+      - 16
+      - 23
+      - 37
+      4: 3.10.9
+      5: 0.19.8
+      8:
+      - 3
+      - 5
+      13: windows-amd64
+embed_dim:
+  desc: null
+  value: 128
+hidden_size:
+  desc: null
+  value: 256
+enc_layers:
+  desc: null
+  value: 1
+dec_layers:
+  desc: null
+  value: 2
+cell_type:
+  desc: null
+  value: gru
+dropout:
+  desc: null
+  value: 0
+learning_rate:
+  desc: null
+  value: 0.001
+teacher_forcing:
+  desc: null
+  value: 0.5
+epochs:
+  desc: null
+  value: 10
+batch_size:
+  desc: null
+  value: 64
+attention:
+  desc: null
+  value: true
+wandb_project:
+  desc: null
+  value: DA6401_assignment3
+wandb_entity:
+  desc: null
+  value: null
+lang_code:
+  desc: null
+  value: hi
+data_path:
+  desc: null
+  value: c:\Users\sanka\Desktop\DL_Assignment_3\data

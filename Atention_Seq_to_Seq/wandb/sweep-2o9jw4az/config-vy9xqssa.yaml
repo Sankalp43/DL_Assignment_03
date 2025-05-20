@@ -1,0 +1,28 @@
+wandb_version: 1
+
+attention:
+  value: true
+batch_size:
+  value: 64
+cell_type:
+  value: gru
+data_path:
+  value: c:\Users\sanka\Desktop\DL_Assignment_3\data
+dec_layers:
+  value: 2
+dropout:
+  value: 0
+embed_dim:
+  value: 128
+enc_layers:
+  value: 1
+epochs:
+  value: 10
+hidden_size:
+  value: 256
+lang_code:
+  value: hi
+learning_rate:
+  value: 0.001
+teacher_forcing:
+  value: 0.5
